@@ -10,7 +10,6 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   hoverEffect?: boolean;
 }
 
-// Componente Button
 const Button: React.FC<ButtonProps> = ({
   backgroundColor = 'bg-blue-500',
   textColor = 'text-white',
